@@ -1,10 +1,10 @@
 name: Build Shake to Flash APK
 
 on:
-workflow_dispatch:
-push:
-branches:
-- main
+  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 permissions:
 contents: read
